@@ -15,7 +15,7 @@
 	var defaultKey		= 'adwmDahs1GEhr8Pw73bNsnDxI8WKpRpBACGv9pbNP4u7EGFN', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [1855457926], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'WeatherRock', // Replaces Xively logo in the header
-		dataDuration	= '12hours', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataDuration	= '24hours', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 60, // Default interval for data to be displayed (in seconds)
 		dataColor		= '87A96B', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
